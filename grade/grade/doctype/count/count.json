@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PREE.###",
+ "creation": "2023-09-12 12:14:52.771466",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "from_date",
+  "column_break_bsjt6",
+  "to_date",
+  "section_break_xljyg",
+  "button",
+  "child"
+ ],
+ "fields": [
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From date"
+  },
+  {
+   "fieldname": "column_break_bsjt6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To date"
+  },
+  {
+   "fieldname": "section_break_xljyg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "button",
+   "fieldtype": "Button",
+   "label": "calculate"
+  },
+  {
+   "fieldname": "child",
+   "fieldtype": "Table",
+   "label": "child",
+   "options": "Count Child"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-12 13:45:55.189865",
+ "modified_by": "Administrator",
+ "module": "Grade",
+ "name": "Count",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
