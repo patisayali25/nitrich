@@ -8,7 +8,7 @@ class SelectEmployee(Document):
 	@frappe.whitelist()
 	def forggfg(self):
 		if self.date and self.grade:
-			doc = frappe.get_all("Employee", filters ={'designation':"Seperator"} ,fields =['name'])
+			doc = frappe.get_all("Employee", filters ={'designation':"Workers"} ,fields =['name'])
 			for d in doc:
 
 				self.append("child",{
