@@ -15,12 +15,12 @@ class Count(Document):
 				MOC = frappe.get_all("Employee Child",
 					 filters = {"Parent" : d.name},
 					 fields = {"eid", "weight", "total"})
-			for m in MOC:
-				list.append({
-					"eid" : m.eid,
-					"weight" : m.weight,
-					"total" : m.total,
-				})
+				for m in MOC:
+					list.append({
+						"eid" : m.eid,
+						"weight" : m.weight,
+						"total" : m.total,
+					})
 
        
 			weight_list = {}
